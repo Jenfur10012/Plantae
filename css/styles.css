@@ -1,33 +1,130 @@
 @media (max-width: 390px) {
 
 }
-h1 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 
+h1{
+    font-family: 'Futura';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;  
+    }
+    
+    
+h2{
+    font-family: 'Futura Md BT';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    
+    
+    h3{
+    font-family: 'Futura Md BT';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    
+    
+    h4{
+    font-family: 'Futura Md BT';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    
+    
+    h5{
+    font-family: 'Futura Bk BT';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    
+    
+    h6{
+    font-family: 'Futura Bk BT';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    
+    
+    p{
+    font-family: 'Futura Bk BT';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    
+    
+    .p2{
+    font-family: 'Futura Bk BT';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    
+ /*menu-wrapper*/   
+ .menu-wrapper{
+   
+ }
+
+
+     
 /*StatusBar*/
 .iphone-status-bar {
-    
+    min-height: 20px;
+    max-width: 390px;
+    min-width: 390px;
 }
 
-
-/*icon-bar style*/
-.icon-bar {
-    min-height: 20px;
-    max-width: 20px;
-    min-width: 20px;
+/*menu-bar style*/
+.menu-bar {
     display:inline;
+    min-width: 390px;
+    max-width: 390px;
   }
 /*breadcrumbs style*/
 .breadcrumbs {
-    border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px #888888;
+    display: inline-flex;
+   
 }
 /*today's-thirsty-plants*/
+.Title-page{
+    text-align: center;
+}
 
+/*plantcardcontainer*/
+.container{
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.2);
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
 
+}
 
 /*plantcards*/
-.card {
+.plantcard {
     min-height: 20px;
     max-width: 20px;
     min-width: 20px;
@@ -36,15 +133,19 @@ h1 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 24px; fo
     
 /*add_plant_button*/
 .button {
-    border-radius: 12px;
+    border-radius: 50px;
     background-color: #1E2F2B; 
     border: none;
     color: white;
-    padding: 20px;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    padding-top: 4px;
+    padding-right: 32px;
+    padding-bottom: 4px;
+    padding-left: 32px;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.2);
   }
   
