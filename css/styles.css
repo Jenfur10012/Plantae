@@ -137,6 +137,8 @@
         font-size: 30px;
         opacity: 1;
         text-align: center;
+        margin-left: 100px ;
+        margin-right: 100px ;
     }
     
 
@@ -168,7 +170,7 @@
         border: none;
         color: white;
         text-decoration: none;
-        display: inline-block;
+        display: inline-flex;
         font-size: 16px;
         padding-top: 4px;
         padding-right: 32px;
