@@ -1,174 +1,182 @@
 @media (max-width: 390px) {
-
-}
-
-h1{
-    font-family: 'Futura';
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;  
+    h1{
+        font-family: 'Futura';
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;  
+        }
+        
+        
+    h2{
+        font-family: 'Futura Md BT';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+        
+        
+        h3{
+        font-family: 'Futura Md BT';
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+        
+        
+        h4{
+        font-family: 'Futura Md BT';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+        
+        
+        h5{
+        font-family: 'Futura Bk BT';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+        
+        
+        h6{
+        font-family: 'Futura Bk BT';
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+        
+        
+        p{
+        font-family: 'Futura Bk BT';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+        
+        
+        .p2{
+        font-family: 'Futura Bk BT';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+    
+        /*menu-bar*/  
+        header{
+            position:fixed;
+            background-color: #FFFFFF;
+            top: 0%;
+            /*z-index: 9;*/
+        }
+        .battery{
+            width: 390px;
+            background-color: #FFFFFF;
+            top:0%;
+        }
+        .battery img{
+            width: 390px;
+            height: 47px;
+        }
+        ul{
+            list-style: none;
+        }
+        .topMenu{
+            flex-direction: row;
+        }
+        .menu{
+            width: 100%;
+            background-color: #FFFFFF;
+            display: inline-flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-right: 16px;
+        }
+        .navBar{
+            width: 100%;
+            background-color: #FFFFFF;
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 32px;
+            text-align: center;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+          
+    
+    .container {
+        display: block;
+        margin-top: 216px;
     }
-    
-    
-h2{
-    font-family: 'Futura Md BT';
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
-    }
-    
-    
-    h3{
-    font-family: 'Futura Md BT';
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-    }
-    
-    
-    h4{
-    font-family: 'Futura Md BT';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    }
-    
-    
-    h5{
-    font-family: 'Futura Bk BT';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    }
-    
-    
-    h6{
-    font-family: 'Futura Bk BT';
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    }
-    
-    
-    p{
-    font-family: 'Futura Bk BT';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    }
-    
-    
-    .p2{
-    font-family: 'Futura Bk BT';
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    }
-
-    /*menu-bar*/  
-    header{
-        position:fixed;
-        background-color: #FFFFFF;
-        /*z-index: 9;*/
-    }
-    .battery{
-        width: 100%;
-        background-color: #FFFFFF;
-        top:0%;
-    }
-    ul{
-        list-style: none;
-    }
-    .topMenu{
-        flex-direction: row;
-    }
-    .menu{
-        width: 100%;
-        background-color: #FFFFFF;
-        display: inline-flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-right: 16px;
-    }
-    .navBar{
-        width: 100%;
-        background-color: #FFFFFF;
-        display: inline-flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-right: 32px;
+    /*today's-thirsty-plants*/
+    .Title-page{
+        width: 285px;
+        color: rgba(0,0,0,1);
+        /* position: fixed; */
+        left: 37px;
+        font-family: Futura Md BT;
+        font-weight: Medium;
+        font-size: 30px;
+        opacity: 1;
         text-align: center;
     }
-      
-
-
-/*today's-thirsty-plants*/
-.Title-page{
-    width: 285px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 0px;
-    left: 37px;
-    font-family: Futura Md BT;
-    font-weight: Medium;
-    font-size: 30px;
-    opacity: 1;
-    text-align: center;
-}
-
-
-
-/*plantcards*/
-.plantcard {
-    width: 358px;
-    height: 80px;
-    background: rgba(255,255,255,1);
-    padding: 8px 16px;
-    margin: 40px;
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
-    display: inline-flex;
-    /*overflow: hidden;*/
-}
- 
     
-/*add_plant_button*/
-.button {
-    border-radius: 50px;
-    background-color: #1E2F2B; 
-    border: none;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    padding-top: 4px;
-    padding-right: 32px;
-    padding-bottom: 4px;
-    padding-left: 32px;
-    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.2);
-  }
-  
+
+    
+    /*plantcards*/
+    .plantcard {
+        width: 358px;
+        height: 80px;
+        background: rgba(255,255,255,1);
+        padding: 8px 16px;
+        margin: 40px;
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+        display: inline-flex;
+        /*overflow: hidden;*/
+    }
+     
+        
+    /*add_plant_button*/
+    .button {
+        border-radius: 50px;
+        background-color: #1E2F2B; 
+        border: none;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        padding-top: 4px;
+        padding-right: 32px;
+        padding-bottom: 4px;
+        padding-left: 32px;
+        box-shadow: 0 1px 8px 0 rgba(0,0,0,0.2);
+      }
+      
+    
+}
+

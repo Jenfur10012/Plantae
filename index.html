@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Watering Schedule</title>
-<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
+      
 <!--menu-Bar-->   
 <header>
     <div class="battery">
@@ -19,15 +21,20 @@
             <li><img src="images/settingsicon.png"></li>
         </ul>
         <ul class="navBar row">
-            <li><img src="images/backicon.png"></li>
-            <li>Back</li>
-            <li><h1>Watering</h1></li>
+            <li><img src="images/navback.png"></li>
+            <li><h3>Watering</h3></li>
             <li><img src="images/diaryicon.png"></li>
         </ul>
+        <div class="Title-page">
+            <h2>Today's thirsty plants</h2>
+         </div>
     </div>
+
+    
 </header>
  <!--Todays-thirsty-plants-->
- <div class="Title-page">
+ <section class="container">
+ <!--<div class="Title-page">
     <h2>Today's thirsty plants</h2>
  </div>
 
@@ -60,6 +67,6 @@
 
 <!--Add_Plant_Button-->
 <button class="button"> <img src="images/Add.png" width="29" height="29">I Watered Another Plant Today</button>
-
+</section>
 </body>
 </html>
