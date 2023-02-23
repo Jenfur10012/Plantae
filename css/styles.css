@@ -86,6 +86,7 @@ h2{
     header{
         position:fixed;
         background-color: #FFFFFF;
+        /*z-index: 9;*/
     }
     .battery{
         width: 100%;
@@ -116,6 +117,7 @@ h2{
         text-align: center;
     }
       
+
 
 /*today's-thirsty-plants*/
 .Title-page{
@@ -149,7 +151,7 @@ h2{
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
-    display: inline-flex
+    display: inline-flex;
     /*overflow: hidden;*/
 }
  
