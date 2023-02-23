@@ -79,92 +79,68 @@
         text-align: left;
         }
     
-        /*menu-bar*/  
         header{
             position:fixed;
-            background-color: #FFFFFF;
+            background-color: #ffffff;
             top: 0%;
-            /*z-index: 9;*/
         }
         .battery{
-            width: 390px;
-            background-color: #FFFFFF;
+            width: 100%;
+            background-color: #ffffff;
             top:0%;
-        }
-        .battery img{
-            width: 390px;
-            height: 47px;
-        }
-        ul{
-            list-style: none;
         }
         .topMenu{
             flex-direction: row;
         }
         .menu{
             width: 100%;
-            background-color: #FFFFFF;
-            display: inline-flex;
-            justify-content: space-evenly;
+            background-color: #ffffff;
+            display: inline-block;
+            justify-content: space-between;
             align-items: center;
             padding-right: 16px;
         }
         .navBar{
             width: 100%;
-            background-color: #FFFFFF;
-            display: inline-flex;
+            background-color: #ffffff;
+            display: inline-block;
             justify-content: space-between;
             align-items: center;
             padding-right: 32px;
             text-align: center;
-            margin-left: 16px;
-            margin-right: 16px;
         }
-          
-    
-    .container {
-        display: block;
-        margin-top: 216px;
-    }
-    /*today's-thirsty-plants*/
-    .Title-page{
-        width: 285px;
-        color: rgba(0,0,0,1);
-        /* position: fixed; */
-        left: 37px;
-        font-family: Futura Md BT;
-        font-weight: Medium;
-        font-size: 30px;
-        opacity: 1;
-        text-align: center;
-        margin-left: 100px ;
-        margin-right: 100px ;
-    }
-    
-
-    
-    /*plantcards*/
-    .plantcard {
-        width: 358px;
-        height: 80px;
-        background: rgba(255,255,255,1);
-        padding: 8px 16px;
-        margin: 40px;
-        opacity: 1;
-        top: 0px;
-        left: 0px;
-        border-top-left-radius: 16px;
-        border-top-right-radius: 16px;
-        border-bottom-left-radius: 16px;
-        border-bottom-right-radius: 16px;
-        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
-        display: inline-flex;
-        /*overflow: hidden;*/
-    }
-     
+        .pageTitle{
+            width: 100%;
+            background-color: #ffffff;
+            display: inline-block;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
+         
+        .plantCheck{
+            border-radius: 16px;
+            width: 358px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            border-color: #B9B9B9;
+            margin: 16px;
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:space-around;
+            padding: 8px 16px;
+            gap: 16px;    
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        }
+        
+        
+        
         
     /*add_plant_button*/
-    .button {
+    .addplantbutton {
         border-radius: 50px;
         background-color: #1E2F2B; 
         border: none;
